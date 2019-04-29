@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ManageNurseListRequest xmlns="http://com.nursys.services.ServiceModel/2012/eNotifyService">
+      <Credentials xmlns:a="http://com.nursys.services.ServiceModel/2012/Credentials" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Username>&&&USERNAME&&&</a:Username>
+        <a:Password>&&&PASSWORD&&&</a:Password>
+      </Credentials>
+      <Nurses xmlns:a="http://com.nursys.services.ServiceModel/2012/eNotify" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        &&&NURSES&&&
+      </Nurses>
+      <TransactionID>&&&TRANSACTION_ID&&&</TransactionID>
+    </ManageNurseListRequest>
+  </s:Body>
+</s:Envelope>

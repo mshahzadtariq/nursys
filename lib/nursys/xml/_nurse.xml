@@ -1,0 +1,21 @@
+<a:Nurse>
+  <a:SubmissionActionCode>A</a:SubmissionActionCode>
+  <a:Jurisdiction>&&&JURISDICTION&&&</a:Jurisdiction>
+  <a:LicenseNumber>&&&LICENSE_NUMBER&&&</a:LicenseNumber>
+  <a:LicenseType>&&&LICENSE_TYPE&&&</a:LicenseType>
+  <a:Email>&&&EMAIL&&&</a:Email>
+  <a:CellPhoneNumber>&&&PHONE_NUMBER&&&</a:CellPhoneNumber>
+  <a:Address1>&&&ADDRESS_1&&&</a:Address1>
+  <a:Address2>&&&ADDRESS_2&&&</a:Address2>
+  <a:City>&&&CITY&&&</a:City>
+  <a:State>&&&STATE&&&</a:State>
+  <a:Zip>&&&ZIP&&&</a:Zip>
+  <a:LastFourSSN>&&&LAST_FOUR_SSN&&&</a:LastFourSSN>
+  <a:BirthYear>&&&BIRTH_YEAR&&&</a:BirthYear>
+  <a:HospitalPracticeSetting>21</a:HospitalPracticeSetting>
+  <a:HospitalPracticeSettingOther>Lorem Ipsum</a:HospitalPracticeSettingOther>
+  <a:NotificationsEnabled>Y</a:NotificationsEnabled>
+  <a:RemindersEnabled>Y</a:RemindersEnabled>
+  <a:LocationList>001</a:LocationList>
+  <a:RecordID>&&&RECORD_ID&&&</a:RecordID>
+</a:Nurse>

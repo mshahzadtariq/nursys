@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <RetrieveNurseLookupRequest xmlns="http://com.nursys.services.ServiceModel/2012/eNotifyService">
+      <Credentials xmlns:a="http://com.nursys.services.ServiceModel/2012/Credentials" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Username>&&&USERNAME&&&</a:Username>
+        <a:Password>&&&PASSWORD&&&</a:Password>
+      </Credentials>
+      <TransactionID>&&&TRANSACTION_ID&&&</TransactionID>
+    </RetrieveNurseLookupRequest>
+  </s:Body>
+</s:Envelope>

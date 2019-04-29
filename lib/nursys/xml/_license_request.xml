@@ -1,0 +1,6 @@
+<a:LicenseRequest>
+  <a:LicenseNumber>&&&LICENSE_NUMBER&&&</a:LicenseNumber>
+  <a:Jurisdiction>&&&JURISDICTION&&&</a:Jurisdiction>
+  <a:LicenseType>&&&LICENSE_TYPE&&&</a:LicenseType>
+  <a:RecordID>&&&RECORD_ID&&&</a:RecordID>
+</a:LicenseRequest>

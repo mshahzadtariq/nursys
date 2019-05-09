@@ -15,7 +15,8 @@ module Nursys
     end
 
     def save
-      Nursys::SubmitNurseLookup.request(self.to_hash)
+      response = Nursys::SubmitNurseLookup.request(self.to_hash)
+      response[:submit_nurse_lookup_response][:transaction][:transaction_success_flag] ? response[:submit_nurse_lookup_response][:transaction][:transaction_id] : response[:submit_nurse_lookup_response][:transaction][:transaction_success_flag]
     end
 
     def to_hash
@@ -28,7 +29,10 @@ module Nursys
 
     class << self
       def find transaction_id
-        Nursys::RetrieveNurseLookup.request(transaction_id)
+        response = Nursys::RetrieveNurseLookup.request(transaction_id)
+        response[:nurse_lookup_response][:nurse_license_responses][:nurse_license_response][:success_flag] ?
+            response[:nurse_lookup_response][:nurse_license_responses][:nurse_license_response][:nurse_licenses][:nurse_license] :
+            response[:nurse_lookup_response][:nurse_license_responses][:nurse_license_response][:success_flag]
       end
     end
 

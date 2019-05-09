@@ -46,7 +46,8 @@ module Nursys
     end
 
     def save
-      Nursys::ManageNurseList.request(self.to_hash)
+      response = Nursys::ManageNurseList.request(self.to_hash)
+      response[:manage_nurse_list_response][:nurse_responses][:nurse_response][:success_flag]
     end
 
     def to_hash
